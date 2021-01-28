@@ -4681,7 +4681,6 @@ body.bottom-captions .overlay .overlay-caption-content {
   left: 0px;
   margin: 0px;
   padding: 0px;
-  position: relative;
   top: 0px;
   z-index: 1;
 }
@@ -4698,11 +4697,9 @@ body.bottom-captions .overlay .overlay-caption-content {
 }
 .tile-padding-wrapper {
   border-radius: 2px;
-  position: absolute;
 }
 .tile-wrapper .tile {
   overflow: hidden;
-  position: absolute;
   z-index: 3;
 }
 .tile-wrapper {
@@ -4711,14 +4708,12 @@ body.bottom-captions .overlay .overlay-caption-content {
   /* Wider aspect ratio */
 }
 .tile-wrapper .tile-link {
-  position: absolute;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
 }
 .tile-wrapper .tile-link .link-meta-container {
-  position: absolute;
   right: 0;
   top: 0;
   bottom: 0;
@@ -4726,7 +4721,6 @@ body.bottom-captions .overlay .overlay-caption-content {
   padding: 1em;
 }
 .tile-wrapper .tile-link .link-image-container {
-  position: absolute;
   left: 0;
   top: 0;
   bottom: 0;

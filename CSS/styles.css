@@ -1,0 +1,1447 @@
+
+  
+  /* v1 stylesheet */
+
+  .section-type-text {
+    margin-top: 40px;
+  }
+
+  .section-type-text .text-wrapper {
+    background-color: #FFF;
+    box-sizing: border-box;
+    color: #444;
+    font-size: 1.2em;
+    margin: 0 auto;
+    padding: 3% 4% 5% 4%;
+  }
+
+
+  .column-count-3 .tile-wrapper{
+  	font-size: 125%;
+  }
+
+  .column-count-3 .tile-action-hover-container{
+    font-size: 90%;
+  }
+
+  .column-count-3 .indicator-type-other {
+    font-size: 0.7em;
+  }
+
+  .column-count-5 .tile-wrapper{
+  	font-size: 75%;
+  }
+
+  .column-count-5 .tile-action-hover-container{
+    font-size: 110%;
+  }
+
+  .column-count-5 .tile-action-indicator-container{
+    font-size: 125%;
+  }
+
+  .column-count-5 .indicator-type-other {
+    font-size: 0.9em;
+  }
+
+  
+  /* v2 stylesheet */
+
+  /* Header */
+  .header {
+    position: relative;
+    background-color: #ECECE6;
+    border-bottom: none;
+    padding: 1.5em 0 1.3em 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Mobile Header */
+  .mobile-header {
+    /* Programmatically generated from $headerpadding */
+    padding: 0.75em 0 0.65em 0;
+  }
+
+  .mobile-navigation-view {
+    font-family: Roboto Slab, serif;
+  }
+
+  /* HEADER CONTENTS  (NOTE THAT MOBILE SOCIAL LINKS ARE DEFINED ELSEWHERE) */
+
+  .social-links-wrapper{
+    margin: 0 auto;
+    width: 78%;
+    box-sizing: border-box;
+  }
+
+  .social-links{
+    float: right;
+  }
+
+  .social-icon-wrapper{
+    display: block;
+    float: right;
+    margin-left: 2px;
+  }
+
+  .social-icon-wrapper a.social-icon-link .zfe-icon{
+    vertical-align: middle;
+  }
+
+  .social-icon-wrapper a.social-icon-link{
+    color: #325570;
+    text-decoration: none;
+    font-size: 1.6em;
+    display: block;
+  }
+
+  .social-icon-wrapper a.social-icon-link:visited{
+    color: #325570;
+  }
+
+  .social-icon-wrapper a.social-icon-link:hover{
+    color: #325570;
+  }
+
+  .social-icon-wrapper a.social-icon-link:active{
+    color: #325570;
+  }
+
+
+
+  .header-contents{
+    margin: 0 auto;
+    width: 78%;
+    overflow: hidden;
+    text-align: inherit;
+    box-sizing: border-box;
+  }
+
+  .header-contents:before{
+    content: '';
+    height: 100%;
+    width: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+
+  .header-text-box{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 90%;
+  }
+
+  /* LOGO */
+
+
+    .header-thumbnail{
+      display: none;
+    }
+
+  .header-thumbnail, #ie8#bug{
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  .mobile-header .header-title {
+    padding-top: 0.3em;
+  }
+
+  .header-title {
+    margin: 0;
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 0.6em;
+    padding: 0.45em 0 0.55em 0;
+    vertical-align: top;
+  }
+
+  /* NAVIGATION MENU */
+
+  .navigation-links{
+    margin: 0 auto;
+    background-color: #325570;
+    box-sizing: border-box;
+    padding: 5px 11% 5px 11%;
+    width: 100%;
+  }
+
+  .navigation-links-container {
+    padding: 0;
+    background-color: transparent;
+    text-align: inherit;
+  }
+
+  .submenu-links-container {
+    padding: 0;
+    background-color: transparent;
+    text-align: inherit;
+  }
+
+  .nav-link-subsection-dropdown-wrapper{
+    width: 200px;
+    text-align: center;
+    margin-left: -100px;
+    overflow: visible;
+  }
+
+  .nav-link-subsection-dropdown{
+    background: #FFF;
+    border: 1px solid #DDD;
+    padding: 8px 10px 11px 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+  }
+
+  a.dropdown-nav-link{
+    display: block;
+    padding: 6px 0px;
+    color: #676767;
+    font-family: Roboto Slab, serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 13px;
+    
+
+  }
+
+  a.dropdown-nav-link:hover{
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .nav-link-subsection-dropdown-spacer{
+    position: relative;
+    height: 10px;
+  }
+
+  .nav-link-dropdown-up-arrow{
+    position: absolute;
+    bottom: -1px;
+    margin-left: -8px;
+    left: 50%;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #FFF;
+  }
+
+  .nav-link-wrapper{
+    background: #6d97cf;
+    border: 1px solid #6d97cf;
+    border-radius: 15px;
+    margin-right: 8px;
+    padding: 4px 16px 5px 16px;
+  }
+
+  .nav-link-super-wrapper{
+    margin: 0;
+  }
+  
+  .nav-link-wrapper .nav-link{
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    
+
+  }
+    
+  .nav-link-wrapper:hover{
+    background: #6d97cf;
+    border: 1px solid #6d97cf;
+    text-decoration: none;
+  }
+
+  .nav-link-wrapper:hover .nav-link{
+    color:  #ECECE6;
+    text-decoration: none;
+  }
+    
+  .nav-link-wrapper.selected{
+    background-color: #ECECE6;
+    border: 1px solid #ECECE6;
+  } 
+
+  .nav-link-wrapper.selected .nav-link{
+    color: #325570;
+    text-decoration: none;
+  }
+
+  .submenu-nav-link-wrapper {
+    margin: 0px 6px 0px 0px;
+  }
+
+  a.submenu-nav-link {
+    text-decoration: none;
+  }
+
+  .submenu-nav-link .submenu-nav-link-inner{
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 13px;
+    font-weight: 600;
+    
+
+  }
+
+
+  a.submenu-nav-link:hover .submenu-nav-link-inner{
+    color:  #325570;
+    text-decoration: underline;
+  }
+
+
+  .submenu-nav-link-wrapper.submenu-selected a.submenu-nav-link .submenu-nav-link-inner{
+    color: #325570;
+    text-decoration: underline;
+  }
+
+  .scroll-to-top{
+    font-family: Roboto Slab, serif;
+    color: #000000;
+    background-color: #EEEEEE;
+    font-size: 16px;
+  }
+
+  .scroll-to-top:hover{
+    box-shadow: 0 0 6px #EEEEEE;
+  }
+
+  /* Body */
+  body {
+    background-color: #ECECE6;
+  }
+
+  a.grid-tile-wrapper {
+    text-decoration: none;
+  }
+
+  .tile {
+    background-color: #fff;
+    border: none;
+  }
+
+  .push-caption-underneath .tile {
+    border-bottom: none;
+  }
+
+
+  /*
+    With the bobross development, users can now leave the values of legacy file
+    tile variables empty if they want to allow their Style Preset to define
+    the full tile behavior. As such, we do not include these rules so they do
+    not overwrite those values in the Preset.
+  */
+
+    .tile-wrapper[pdf_icon="true"] .tile-caption{
+      color: #325570;
+    }
+
+    .tile-wrapper[pdf_icon="true"] .tile{
+      background-color: #ccc;
+    }
+
+  .tile-text {
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+  }
+
+  .tile-text p{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.6em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .tile-text a{
+    color: #6d97cf;
+    font-family: Roboto Slab, serif;
+    text-decoration: underline;
+  }
+
+  .tile-text a:hover{
+    color: #6d97cf;
+    text-decoration: underline;
+  }
+
+  .tile-text h1{
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  }
+
+  .tile-text h2{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .tile-text h3{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding-top: 0.4em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .tile-text ul,
+  .tile-text ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.6em 1.25em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+  }
+
+  .tile-text ul li,
+  .tile-text ol li {
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    line-height: 1.35em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .tile-text ul li ul,
+  .tile-text ol li ol,
+  .tile-text ol li ul {
+    /* Maintain same proportions as the parent  */
+    padding: 0 0 0 2em;
+  }
+
+  .tile-text ul li ul li,
+  .tile-text ol li ol li {
+    /* Maintain same proportions as the parent  */
+    font-size: 1em;
+    line-height: 1.35em;
+  }
+
+  .tile-caption {
+    background-color: #325570;
+    color: #6d97cf;
+    font-family: Roboto Slab, serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.4em;
+    opacity: none;
+  }
+
+  .push-caption-underneath .tile-caption {
+    position:relative;
+    bottom:0;
+    /* Make it look like the .tile-caption is part of the .tile 
+       even though it is outside of it in mobile mode */
+    border: none;
+    border-top: none;
+  }
+
+  .tile-link .link-image-container { 
+    background-color: #fff;
+  }
+
+  .tile-link .link-title { 
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    padding-top: 0;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .tile-link .link-description { 
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.5em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .tile-link .link-source { 
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.25em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+
+
+  /* TILE ACTION INDICATORS */
+
+  .video-play-button {
+    color: #FFFFFF;
+  }
+
+  .tile-action-hover-background{
+    background-color: #325570;
+  }
+
+  .tile-action-hover-container{
+    color: #6d97cf;
+  }
+
+  .tile-action-hover-text{
+    font-family: Roboto Slab, serif;
+  }
+
+  .tile-action-indicator-container {
+    color: #6d97cf;
+    background-color: #325570;
+  }
+
+    .tile-wrapper:hover .tile-action-hover-container {
+      display:block;
+    }
+
+    .tile-action-indicator-container{
+      display: block;
+    }
+
+
+
+  /* OVERLAY CAPTION */
+
+  .overlay-background {
+    background-color: #325570;
+    opacity: 0.92;
+  }
+
+
+    .overlay-caption-wrapper{
+      background-color: #ECECE6;
+    }
+  
+    .overlay-asset-title{
+      padding: 7% 10%;
+    }
+  
+    .overlay-caption-content{
+      padding: 7% 10%;
+    }
+
+
+  .overlay-asset-title{
+    border-bottom: 1px solid #325570;
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4em;
+      
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  }
+
+  .overlay-caption-content{
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+  } 
+
+  .overlay-caption-content p{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.6em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .overlay-caption-content a{
+    color: #6d97cf;
+    font-family: Roboto Slab, serif;
+    text-decoration: underline;
+  }
+
+  .overlay-caption-content a:hover{
+    color: #6d97cf;
+    text-decoration: underline;
+  }
+
+  .overlay-caption-content h1{
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  
+  }
+
+  .overlay-caption-content h2{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .overlay-caption-content h3{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding-top: 0.4em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .overlay-caption-content ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.6em 1.25em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+  }
+
+  .overlay-caption-content ul li {
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    line-height: 1.35em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .overlay-caption-content ul li ul,
+  .overlay-caption-content ol li ol,
+  .overlay-caption-content ol li ul {
+    /* Maintain same proportions as the parent  */
+    padding: 0 0 0 2em;
+  }
+
+  .overlay-caption-content ul li ul li,
+  .overlay-caption-content ol li ol li {
+    /* Maintain same proportions as the parent  */
+    font-size: 1em;
+    line-height: 1.35em;
+  }
+
+  /* Accordion Section */
+
+  
+
+  .accordion-text {
+    
+      font-family: Roboto Slab, serif;
+  
+  }
+
+  .accordion-text h1,h2,h3,h4,h5,h6 {
+    
+      font-family: Roboto Slab, serif;
+  
+  }
+
+  .accordion-text h1{
+    color: #325570;
+    
+      font-family: Roboto Slab, serif;
+  
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  }
+
+  .accordion-text h2{
+    color: #333;
+    
+      font-family: Roboto Slab, serif;
+  
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .accordion-text h3{
+    color: #333;
+    
+      font-family: Roboto Slab, serif;
+  
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding-top: 0.4em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .accordion-text h4{
+    color: #555555;
+    
+      font-family: Roboto Slab, serif;
+  
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4em;
+    padding-top: 0;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .accordion-text p{
+    color: #333;
+    
+      font-family: Roboto Slab, serif;
+  
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.6em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  /* Slideshow Section */
+
+  .section-type-slideshow {
+    margin: 40px 0 0 0;
+    padding: None;
+  }
+
+  .slideshow-wrapper{
+    background-color: #325570;
+  }
+
+  .galleria-info-text{
+    padding: 0;
+  }
+
+  .galleria-info-title{
+    padding: 1em 1.5em;
+    border-bottom: 1px solid #325570;
+    border-top: 1px solid #DDDDDD;
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.4em;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  }
+
+  .galleria-info-description{
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    padding: 1em 1.5em;
+  }
+
+  .galleria-info-text p{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.6em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .galleria-info-text a{
+    color: #6d97cf;
+    font-family: Roboto Slab, serif;
+    text-decoration: underline;
+  }
+
+  .galleria-info-text a:hover{
+    color: #6d97cf;
+    text-decoration: underline;
+  }
+
+  .galleria-info-text h1{
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  }
+
+  .galleria-info-text h2{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .galleria-info-text h3{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding-top: 0.4em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .galleria-info-text ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.6em 1.25em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+
+  }
+
+  .galleria-info-text ul li {
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    line-height: 1.35em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .galleria-info-text ul li ul,
+  .galleria-info-text ol li ol,
+  .galleria-info-text ol li ul {
+    /* Maintain same proportions as the parent  */
+    padding: 0 0 0 2em;
+  }
+
+  .galleria-info-text ul li ul li,
+  .galleria-info-text ol li ol li {
+    /* Maintain same proportions as the parent  */
+    font-size: 1em;
+    line-height: 1.35em;
+  }
+
+
+
+    .slideshow-wrapper.has-caption .galleria-info{
+      top: 0;
+      bottom: 0;
+      left: 74%;
+      right: 0;
+      background-color: #222;
+    }
+
+    .slideshow-wrapper.has-caption .galleria-stage, .slideshow-wrapper.has-caption .galleria-thumbnails-container{
+      right: 26%;
+    }
+  
+  
+    @media all and (max-width: 900px){
+      .slideshow-wrapper.has-caption .galleria-stage, .slideshow-wrapper.has-caption .galleria-thumbnails-container{
+        right: 34%;
+      }
+      .slideshow-wrapper.has-caption .galleria-info{
+        left: 66%;
+      }
+    }
+  
+    @media all and (max-width: 700px){
+      .slideshow-wrapper.has-caption .galleria-stage, .slideshow-wrapper.has-caption .galleria-thumbnails-container{
+        right: 40%;
+      }
+      .slideshow-wrapper.has-caption .galleria-info{
+        left: 60%;
+      }
+    }
+
+    .section-type-slideshow .slideshow-wrapper.video-playing .galleria-info{
+      display: block;
+    }
+
+    .galleria-info-text{
+      background-color: #222;
+      opacity: 1;
+    }
+
+    .galleria-info-close{
+      display: none;
+    }
+    
+
+  /* mobile  slideshow */
+  
+  @media all and (max-aspect-ratio: 9/10) {
+  
+    .slideshow-wrapper .galleria-info, .slideshow-wrapper.has-caption .galleria-info{
+      top: 65%;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .slideshow-wrapper.has-caption .galleria-info{
+      background-color: #222;
+    }
+  
+    .galleria-info-text{
+      opacity: 1;
+      font-size: 1.25em;
+    }
+  
+    .slideshow-wrapper .galleria-stage{
+      bottom: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .slideshow-wrapper.has-caption .galleria-stage{
+      bottom: 35%;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+  
+    .slideshow-wrapper .galleria-thumbnails-container{
+      display: none;
+    }
+  
+  }
+
+  /* Video Playlist Section */
+
+  .section-type-playlist {
+    margin: 40px 0 0 0;
+    padding: None;
+  }
+
+  .section-type-playlist .playlist-item.selected .video-title-section{
+    border-left: 3px solid #6d97cf;
+  }
+
+  .section-type-playlist .playlist-item .now-playing{
+    color: #6d97cf;
+  }
+
+  .section-type-playlist .playlist-item .video-title{
+    color: #EEE;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+  }
+
+  .section-type-playlist .playlist-item.selected .video-caption p{
+    font-family: Roboto Slab, serif;
+    font-size: 1em; 
+  }
+
+  .section-type-playlist .playlist-item ul,
+  .section-type-playlist .playlist-item ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.6em 1.25em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .section-type-playlist .playlist-item ul li,
+  .section-type-playlist .playlist-item ol li {
+    line-height: 1.35em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .section-type-playlist .playlist-item ul li ul,
+  .section-type-playlist .playlist-item ol li ol,
+  .section-type-playlist .playlist-item ol li ul {
+    /* Maintain same proportions as the parent  */
+    padding: 0 0 0 2em;
+  }
+
+  .section-type-playlist .playlist-item ul li ul li,
+  .section-type-playlist .playlist-item ol li ol li {
+    /* Maintain same proportions as the parent  */
+    font-size: 1em;
+    line-height: 1.35em;
+  }
+
+
+  /* Grid Section */
+
+  .section-type-grid {
+    margin: None;
+  }
+
+  /* This is defined on the .tiles div for backwards compatibility */
+  .tiles {
+    padding: 3% 0 4% 0;
+  }
+
+  /* Grid Section Filters */
+
+  .grid-section-filters a {
+    color: #6d97cf;
+    font-size: 0.8em;
+  }
+
+  .grid-section-filters .grid-section-filters-toggle {
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    color: #325570;
+    background-color: #222;
+  }
+
+  .grid-section-filters .grid-section-filters-categories {
+    font-family: Roboto Slab, serif;
+    background-color: #222;
+  }
+
+  .grid-section-filters .grid-section-filters-category {
+    border-bottom: 1px solid #325570;
+  }
+
+  .grid-section-filters .grid-section-filters-category:nth-last-of-type(2) {
+    border-bottom: none;
+  }
+
+  .grid-section-filters .grid-section-filters-category-label {
+    color: #325570;
+    font-size: 0.8em;
+    font-weight: 400;
+    width: 25%;
+  }
+
+  .grid-section-filters .grid-section-filters-actions button {
+    display: inline-block;
+    padding: 0.65em 1.2em 0.65em 1.2em;
+  
+    background-color: #6d97cf;
+    color: #FFFFFF;
+    font-family: Roboto Slab, serif;
+    line-height: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #5983bb;
+  }
+
+  .grid-section-filters .grid-section-filters-category-tags {
+    font-size: 0.8em;
+    color: #325570;
+  }
+
+  /* Text Section */
+
+  .section-type-text {
+    margin: None;
+    padding: None;
+  }
+  
+  .text-wrapper{
+    border: 1px solid #DDDDDD;
+  }
+
+  .text-wrapper p{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    padding-top: 0.6em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .text-wrapper a{
+    color: #6d97cf;
+    font-family: Roboto Slab, serif;
+    text-decoration: underline;
+  }
+
+  .text-wrapper a:hover{
+    color: #6d97cf;
+    text-decoration: underline;
+  }
+
+  .text-wrapper h1{
+    color: #325570;
+    font-family: Roboto Slab, serif;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+  }
+
+  .text-wrapper h2{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 1.1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25em;
+    padding-top: 0.3em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+  .text-wrapper h3{
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3em;
+    padding-top: 0.4em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    
+
+  }
+
+
+  .job-feed-wrapper table,
+  .text-wrapper table, 
+  .tile-text table {
+    color: #333;
+    border: 1px solid #AAA;
+    font-family: Roboto Slab, serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.35em;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-top: 0.6em;
+  }
+
+  .job-feed-wrapper table td,
+  .text-wrapper table td, 
+  .tile-text table td {
+    border: 1px solid #AAA;
+    padding: 5px;
+    background-color: transparent;
+  }
+
+  .text-wrapper ul,
+  .text-wrapper ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0.6em 1.25em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .text-wrapper ul li,
+  .text-wrapper ol li {
+    color: #333;
+    font-family: Roboto Slab, serif;
+    font-size: 0.8em;
+    font-style: normal;
+    line-height: 1.35em;
+  
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+
+  .text-wrapper ul li ul,
+  .text-wrapper ol li ol,
+  .text-wrapper ol li ul {
+    /* Maintain same proportions as the parent  */
+    padding: 0 0 0 2em;
+  }
+
+  .text-wrapper ul li ul li,
+  .text-wrapper ol li ol li {
+    /* Maintain same proportions as the parent  */
+    font-size: 1em;
+    line-height: 1.35em;
+  }
+
+
+
+  /* Presentation Section */
+
+  .section-type-presentation {
+    margin: 40px 0 0 0;
+    padding: None;
+  }
+
+
+  /* PDF Section */
+
+  .section-type-pdf {
+    margin: 40px 0 0 0;
+    padding: None;
+  }
+
+
+  /* Iframe Embed Section */
+
+  .section-type-iframe-embed {
+    margin: 40px 0 0 0;
+    padding: None;
+  }
+
+
+  /* HTML Package Section */
+
+  .section-type-html-package {
+    margin: 40px 0 0 0;
+    padding: None;
+  }
+
+
+  /* FORMS AND CALLS TO ACTION */
+
+  .button-style,
+  .tile-text a.button-style {
+    display: inline-block;
+    padding: 0.65em 1.2em 0.65em 1.2em;
+  
+    background-color: #6d97cf;
+    color: #FFFFFF;
+    font-family: Roboto Slab, serif;
+    line-height: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 3px solid #5983bb;
+  }
+
+  .button-style:hover,
+  .tile-text a.button-style:hover {
+    background-color: #5983bb;
+  }
+
+
+  .tile-form .submit-form{
+    margin-top: 0.7em;
+    font-size: 0.6em;
+  }
+
+
+  /* TILE STYLES */
+
+
+
+
+    .navigation-links.fixed-navigation-links{
+      position: fixed;
+      top: 0;
+      z-index: 50;
+      width: 100%;
+      box-shadow: 0px 4px 12px rgba(0,0,0,.1);
+    }
+
+
+    /* Header 
+*/
+
+.header{
+  border-bottom: 1px solid #AAA;
+}
+
+/* Navigation 
+*/
+
+.navigation-links{
+  padding: 12px 0;
+  padding-left: 11%;
+  width: auto;
+}
+
+.nav-link-wrapper .nav-link{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.tile-caption {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.tile-text h2, .tile-text h3, .tile-text p, .tile-text a{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.text-wrapper h2, .text-wrapper h3, .text-wrapper p, .text-wrapper a{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.galleria-info-description, .overlay-caption-content{
+  font-size: 1.1em;
+}
+
+.overlay-caption-content h1, .overlay-caption-content h2, .overlay-caption-content h3,
+.overlay-caption-content p, .overlay-caption-content ul li{
+  font-family: 'Titillium Web', sans-serif;
+  color:#333;
+}
+
+.overlay-caption-content a{
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.slideshow-wrapper{
+  background-color: #000;
+} 
+
+.galleria-info-text h1, .galleria-info-text h2,.galleria-info-text h3, .galleria-info-text p,
+.galleria-info-text ul li, .galleria-info-text a{
+  font-family: 'Titillium Web', sans-serif;
+}

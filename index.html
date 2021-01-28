@@ -49,6 +49,7 @@
                   </div>
               </div>
               
+            <!--  LOAD NAV-->
               <div class="navigation-links prevent-dropdowns"></div>
               
               <div class="section-wrapper section-type-grid  is-in-viewport was-in-viewport" id="section-id-8dlx7c">
@@ -104,23 +105,21 @@
                   </div>
               </div>
               
-              <div class="footer">
-                  <div class="powered-by-zf">
-                      <a href="https://zoomforth.com/" target="_blank"><img src="IMG/powered_by_zf.png"></a>
-                  </div>
-              </div>
+            <!-- LOAD FOOTER-->
+              <footer></footer>
+          
           </div>
       </div>    
 
-<!--      <script src="https://static.zoomforth.com/build-assets/page_viewer-3ddbd849.js" crossorigin="anonymous"></script>-->
+      <script src="JS/page_viewer-3ddbd849.js" crossorigin="anonymous"></script>
 
   </body>
     
     <script src="JS/global.js"></script>
     <script type="text/javascript">
     $(function(){
-          $(".navigation-links").load("nav.html");
-          $("#footer").load("footer.html"); 
+          $(".navigation-links").load("embeds/nav.html");
+          $("footer").load("embeds/footer.html"); 
         });
     </script>
 </html>

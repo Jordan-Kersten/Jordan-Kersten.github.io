@@ -4697,6 +4697,7 @@ body.bottom-captions .overlay .overlay-caption-content {
 }
 .tile-padding-wrapper {
   border-radius: 2px;
+    clear: both;
 }
 .tile-wrapper .tile {
   overflow: hidden;

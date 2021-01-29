@@ -1448,5 +1448,6 @@ footer {
 }
 
 footer p, footer p a {
+    font-family: 'Titillium Web', sans-serif;
     color: white;
 }

@@ -4945,6 +4945,7 @@ body.bottom-captions .overlay .overlay-caption-content {
 }
 .tile-image-wrapper {
     max-width: 300px;
+    margin: 0 auto;
 }
 .tile-caption {
   bottom: -1px;

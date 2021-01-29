@@ -1444,6 +1444,9 @@
 }
 
 footer {
-    
-    background: green;
+    background: black;
+}
+
+footer p {
+    color: white;
 }

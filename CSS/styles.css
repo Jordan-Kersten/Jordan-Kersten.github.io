@@ -1442,3 +1442,8 @@
 .galleria-info-text ul li, .galleria-info-text a{
   font-family: 'Titillium Web', sans-serif;
 }
+
+footer {
+    
+    background: green;
+}

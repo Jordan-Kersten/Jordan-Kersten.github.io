@@ -1,5 +1,9 @@
   @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Titillium+Web:400,600,400italic,600italic');
 
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
   
   /* v1 stylesheet */
 

@@ -4977,7 +4977,6 @@ body.bottom-captions .overlay .overlay-caption-content {
   font-size: 1.5em;
   line-height: 1.3em;
   padding: 0.8em 0.8em 0.9em 0.8em;
-  text-align: center;
 }
 /* PDF ICON */
 .tile-wrapper[pdf_icon="true"] .tile-image-wrapper {

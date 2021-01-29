@@ -1447,6 +1447,6 @@ footer {
     background: black;
 }
 
-footer p {
+footer p, footer p a {
     color: white;
 }

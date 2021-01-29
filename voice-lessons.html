@@ -96,8 +96,8 @@
 
                 <h1>Schedule a Voice Lesson</h1>
 
-
-                <iframe src="schedule.html" class="zf-iframe tile-iframe" frameborder="0" allowfullscreen="true"></iframe>
+                <!-- LOAD schedule.html-->
+                <div id="acuitySchedule" class="zf-iframe tile-iframe"></div>
 
                 <div class="tile-padding-wrapper" >
                     <div class="tile">
@@ -122,8 +122,9 @@
 <script src="JS/global.js"></script>
 <script type="text/javascript">
 $(function(){
-  $("nav").load("embeds/nav.html");
-  $("footer").load("embeds/footer.html"); 
+    $("nav").load("embeds/nav.html");
+    $("footer").load("embeds/footer.html");
+    $("#acuitySchedule").load("embeds/schedule.html"); 
 });
 </script>
 
